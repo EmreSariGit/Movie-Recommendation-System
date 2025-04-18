@@ -2,14 +2,14 @@ import numpy as np
 import pandas as pd
 import pickle
 
-popularity = pd.read_csv('ml-latest-small/popularity.csv', index_col='movieId').to_dict()['popularity']
+popularity = pd.read_csv('data/popularity.csv', index_col='movieId').to_dict()['popularity']
 
 # Load the trained model
 with open('CollaborativeModel-ml-latest-small.pkl', 'rb') as model_file:
     loaded_model = pickle.load(model_file)
 
 # Load the movies data
-movies_df = pd.read_csv('ml-latest-small/movies.csv')
+movies_df = pd.read_csv('data/movies.csv')
 
 # Load the genre similarity matrix
 genre_similarity_matrix = np.load('genre_similarity_matrix.npy')
