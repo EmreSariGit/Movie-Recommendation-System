@@ -10,16 +10,18 @@ A hybrid movie recommender system using Collaborative Filtering (CF) and Content
 - Optional filtering using **movie popularity**
 - Efficient filtering to avoid already-rated movies
 
-🧠 How It Works
-CF (Collaborative Filtering) uses the Surprise library's trained SVD model to predict user ratings for unrated movies.
+## 🧠 How It Works
 
-CBF (Content-Based Filtering) calculates genre similarity from a precomputed matrix.
+- **CF (Collaborative Filtering)** uses the Surprise library's trained SVD model to predict user ratings for unrated movies.
 
-Mixed Recommendation blends CF and CBF using a configurable alpha (default: 0.6).
+- **CBF (Content-Based Filtering)** calculates genre similarity from a precomputed matrix.
 
-Results can also be sorted by popularity.
+- **Mixed Recommendation** blends CF and CBF using a configurable alpha (default: 0.6).
 
-📊 Dataset
-Based on MovieLens Latest Small Dataset
+- Results can also be sorted by popularity.
 
-Genre similarity matrix precomputed with cosine similarity
+## 📊 Dataset
+
+- Based on MovieLens Latest Small Dataset
+
+- Genre similarity matrix precomputed with cosine similarity
