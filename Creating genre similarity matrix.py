@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
 
 # Load the movies data
-movies_df = pd.read_csv('C:/Users/Emre/Desktop/ml-latest-small/movies.csv')
+movies_df = pd.read_csv('data/movies.csv')
 
 # Prepare the genres column for vectorization
 movies_df['genres'] = movies_df['genres'].fillna('')  # Handle any missing values
