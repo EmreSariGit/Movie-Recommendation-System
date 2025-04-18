@@ -1,5 +1,3 @@
-# Movie-Recommendation-System
-
 # 🎬 Movie Recommendation System
 
 A hybrid movie recommender system using Collaborative Filtering (CF) and Content-Based Filtering (CBF), based on the MovieLens dataset. The system predicts user preferences and suggests relevant movies by combining user behavior and genre similarity.
