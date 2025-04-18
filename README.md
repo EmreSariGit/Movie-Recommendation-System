@@ -1,6 +1,6 @@
 # Movie-Recommendation-System
 
-Model Details
+Model Details:
 
 Collaborative Filtering: Trained SVD model using Surprise
 
