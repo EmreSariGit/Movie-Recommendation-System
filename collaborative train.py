@@ -4,7 +4,7 @@ from surprise.model_selection import train_test_split
 from surprise import accuracy
 
 # Load the data
-ratings_df = pd.read_csv('ml-latest-small/ratings.csv')
+ratings_df = pd.read_csv('data/ratings.csv')
 
 # Drop the timestamp column since it’s not needed
 ratings_df = ratings_df.drop('timestamp', axis=1)
